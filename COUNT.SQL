@@ -1,0 +1,10 @@
+SELECT COUNT(1) AS 'Quantidade de Registros'
+FROM ESEGUSRSETORSIST SU
+INNER JOIN ESEGUSUARIO U
+ON U.CDUSUARIO = SU.CDUSUARIO
+INNER JOIN ECPAORGAOSETOR S ON
+WHERE S.NMORGAOSETOR = 'PORTAL'
+AND CDSISTEMA = 64
+AND U.FLHABILITADO = 'S' AND U.FLFORAUSO = 'N' AND U.DTDESATIVACAO IS NULL
+
+-- Esse script selecionar usuários com o perfil portal ativos e a partir do count informa a quantia.
