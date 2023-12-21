@@ -1,0 +1,9 @@
+UPDATE ECPATAREFA SET TPSITUACAOTAREFA = 'F'
+WHERE TPSITUACAOTAREFA = 'C'
+AND DETAREFA = 'Comunique-se: Corrigir documentação'
+AND CDTIPOTAREFA = '4'
+AND DEFINALIZACAO = 'Tarefa cancelada automaticamente por evento do fluxo.'
+AND CDUSUARIOFINALIZACAO = 'SISTEMA'
+AND IDEXTERNO = '64__'||:CDPROCESSO
+
+--oks
