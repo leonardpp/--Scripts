@@ -1,0 +1,46 @@
+/* Subtítulos (h3) */
+.schema-form-h3 h3 {
+    text-align: left !important;
+    font-weight: 600;
+    color: #333333;     /* cinza bem escuro */
+    margin: 5px 0px;
+}
+
+/* Título principal (h1 no cabeçalho) */
+[key="titulo"] h1.ng-binding {
+    margin: 0 !important;
+    text-align: center !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    font-size: clamp(1.7rem, 3vw, 4rem);  /* aumenta de acordo com tela */
+}
+
+/* Título do popup de ajuda */
+.popup-ajuda h3 {
+    margin-top: 0;
+    color: #0056b3;     /* azul */
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+/* Título no modal de confirmação de dados */
+.modal-box h3 {
+    margin: 0 0 15px;
+    color: #00838F;     /* verde-azulado */
+    text-align: center;
+}
+
+/* Título no alerta customizado */
+.alert-header-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;        /* cinza escuro */
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    width: 100%;
+}
