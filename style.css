@@ -1,0 +1,101 @@
+/* Subtítulos */
+.schema-form-h3 h3 {
+    color: #333333;
+}
+
+/* Botão de ajuda */
+.help-button {
+    color: #0056b3;
+}
+
+.help-button .help-icon {
+    color: white;
+}
+
+.help-button:hover {
+    color: #fff;
+}
+
+.help-button:hover .help-icon {
+    color: #007bff;
+}
+
+/* Popup de ajuda */
+.popup-ajuda {
+    color: #444;
+}
+
+.popup-ajuda h3 {
+    color: #0056b3;
+}
+
+/* Campos obrigatórios */
+div.required label.control-label::after {
+    color: #842029 !important;
+}
+
+div.required label.control-label.preenchido::after {
+    color: #0f5132 !important;
+}
+
+/* Loader */
+#loading-spinner .sk-circle:before {
+    background-color: #3c3c3c !important;
+}
+
+#loading-spinner .outer::after {
+    color: #3c3c3c;
+}
+
+/* Alerta Sistema */
+.growl-container .growl-item.alert-warning {
+    color: #F7857C !important;
+}
+
+.growl-container .growl-item .growl-message,
+.growl-container .growl-item .growl-message * {
+    color: #000 !important;
+}
+
+.close {
+    color: #000 !important;
+}
+
+/* Modal de confirmação */
+.modal-box h3 {
+    color: #00838F;
+}
+
+.modal-content {
+    color: #333;
+}
+
+.btn-cancelar {
+    color: #333;
+}
+
+.btn-confirmar {
+    color: #fff;
+}
+
+/* Toggle */
+.toggle-label {
+    color: #00838F;
+}
+
+.toggle-simbolo {
+    color: #00838F;
+}
+
+/* Switches (checkbox) */
+input[type="checkbox"]:before {
+    background-color: #9e9e9e;
+}
+
+input[type="checkbox"]:checked::before {
+    background-color: #339bff;
+}
+
+input[type="checkbox"]:disabled::before {
+    background-color: #bdbdbd !important;
+}
